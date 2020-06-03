@@ -1,0 +1,106 @@
+body{
+    background-image: url('../images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(229, 57%, 11%);
+    background-size: 100vw;
+    background-position: bottom;
+    margin: 0;
+    padding: 0;
+}
+.background{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.main-container{
+    width: 75vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.menu{
+    height: 10vh;
+    display: flex;
+    width: 15vw;
+    justify-content: baseline;
+    flex-direction: column;
+    padding: 4vh 12vh 4vh 4vh;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px;
+    border-top-right-radius: 12vh;
+}
+.item{
+    margin: 0;
+}
+.total-space-bar{
+    width: 100%;
+    height: 20px;
+    background-color:hsl(229, 57%, 11%);
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 1000px;
+}
+.used-space-bar{
+    width: 80%;
+    height: 15px;
+    background: linear-gradient(90deg, hsl(6, 100%, 80%),hsl(335, 100%, 65%));
+    margin: auto 0.2% auto;
+    border-radius: 1000px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.bar-dot{
+    border-radius: 15px;
+    height: 15px;
+    width: 15px;
+    background-color: hsl(243, 100%, 93%);
+}
+
+.total-space{
+    display: flex;
+    justify-content: space-between;
+}
+.progress{
+    border-radius: 10px;
+    width: 75%;
+    margin: 0% 3% 0%;
+    padding: 2vh;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 14px;
+    background-color: hsl(228, 56%, 26%);
+    font-weight: 400;
+}
+.space-left{
+    font-weight: 700;
+    color: black;
+    background-color: white;
+}
+.space-info{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.option-menu{
+    width: 12vw;
+    margin-top: 1vh;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-button{
+    width: 50px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    background-color: hsl(229, 57%, 11%);
+}
